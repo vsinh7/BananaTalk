@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BananaTalk</title>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+        body {
+            font-family: 'Kalam', cursive;
+        }
+
+        textarea {
+            padding-left: 1rem;
+            margin-top: 1rem;
+            display: block;
+            margin-bottom: 2rem;
+            max-width: 100%;
+            font-family: 'Kalam', cursive;
+        }
+
+        #btn-translate {
+
+            background-color: gold;
+            color: white;
+            border: 1px solid;
+            border-radius: 57px;
+            padding: 1rem 8rem;
+            font-size: x-large;
+            font-family: 'Kalam', cursive;
+
+        }
+
+        #output-div {
+            border: solid 1px black;
+            height: 10vh;
+            max-width: 100%;
+            padding-bottom: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .navigation {
+            text-align: center;
+            color: whitesmoke;
+            display: block;
+            background-color: cadetblue;
+            padding: 2rem 0;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: cadetblue;
+            color: whitesmoke;
+        }
+
+        .footer-heading {
+            font-size: larger;
+        }
+
+        .para {
+            max-width: 60%;
+            margin: auto;
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation">
+        <h1>Let's BananaTalk</h1>
+    </nav>
+
+
+    <textarea name="userText" id="userText" cols="195" rows="5" placeholder="Add Your Text here to Translate"></textarea>
+    <button id="btn-translate">Translate</button>
+
+
+
+    <div style="font-size: larger;">How Minions will say this!👇</div>
+    <div id="output-div"> </div>
+
+    <footer class="footer">
+        <div class="footer-heading"><strong>about</strong></div>
+        <section class="para">
+            <p>
+                Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the
+                translator to convert your text from English to Minion speak or Banana language
+            </p>
+        </section>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
